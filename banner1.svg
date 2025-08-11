@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Robert Linhard: Interagency Wranglemaster">
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0c1b2a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend mode="multiply"/>
+      <feGaussianBlur stdDeviation="0.3"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" fill="url(#g)"/>
+  <rect width="1200" height="320" fill="rgba(255,255,255,0.02)" filter="url(#grain)"/>
+  <!-- stylized eagle/star emblem -->
+  <g transform="translate(1050,160) scale(1.2)">
+    <circle r="70" fill="none" stroke="#d1b97a" stroke-width="3"/>
+    <path d="M-25,0 L-70,-10 L-40,10 L-70,30 L-15,15 L0,60 L15,15 L70,30 L40,10 L70,-10 L25,0 L0,-60 Z"
+          fill="none" stroke="#d1b97a" stroke-width="2"/>
+  </g>
+  <text x="60" y="140" fill="#f2f2f2" font-size="46" font-family="Georgia, 'Times New Roman', serif" font-weight="700">
+    Robert Linhard: Interagency Wranglemaster
+  </text>
+  <text x="60" y="190" fill="#d1b97a" font-size="22" font-family="Georgia, 'Times New Roman', serif" opacity="0.95">
+    A Reagan-era FRUS micro-strategy game (1985–1987)
+  </text>
+  <text x="60" y="230" fill="#cfe4ff" font-size="18" font-family="ui-sans-serif, system-ui, Segoe UI, Roboto" opacity="0.9">
+    Can you wrangle Shultz & Weinberger, brief the NSA, and land INF?
+  </text>
+</svg>
